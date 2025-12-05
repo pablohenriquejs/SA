@@ -1,8 +1,8 @@
-Poke+ — Testes End-to-End com Cypress
+# Poke+ — Testes End-to-End com Cypress
 
 Este repositório contém os testes automatizados E2E do projeto Poke+, cobrindo as telas Home e Login.
 Os testes validam navegação, layout, campos, interações e funcionalidades básicas da aplicação.
-
+```
 Tecnologias Utilizadas
 
 Cypress 13+
@@ -12,8 +12,9 @@ JavaScript
 Node.js
 
 HTML/CSS da aplicação Poke+
-
-Estrutura do Projeto
+```
+# Estrutura do Projeto
+```
 /cypress
   └── e2e
       ├── index.cy.js
@@ -21,8 +22,9 @@ Estrutura do Projeto
 /login.html
 /index.html
 /README.md
-
-O que é testado?
+```
+# O que é testado?
+```
 Tela de Login
 
 Os testes verificam:
@@ -38,11 +40,11 @@ Digitação nos campos de usuário e senha
 Navegação para a página de cadastro
 
 Verificação do rodapé
-
-Tela Home
+```
+# Tela Home
 
 Os testes incluem:
-
+```
 Logo exibido corretamente
 
 Botões "Login" e "Cadastrar"
@@ -54,8 +56,9 @@ Hero Section (título, botão e imagem)
 Seção de informações
 
 Rodapé
-
-Como rodar o projeto
+```
+# Como rodar o projeto
+```
 1. Instalar dependências
 npm install
 
@@ -63,7 +66,7 @@ npm install
 npx cypress open
 
 3. Rodar os testes
-
+```
 Escolha o arquivo:
 
 index.cy.js → testa a Home
@@ -71,16 +74,14 @@ index.cy.js → testa a Home
 login.cy.js → testa o Login
 
 Ou execute todos via terminal:
-
-npx cypress run
-
-URLs usadas nos testes
-
-Os testes acessam os arquivos via servidor local:
-
+```
+npx cypress open
+```
+# URLs usadas nos testes
+```
 http://127.0.0.1:5500/index.html
 http://127.0.0.1:5500/login.html
-
+```
 
 É necessário rodar a aplicação com algum servidor local, como a extensão Live Server do VSCode.
 
