@@ -2,7 +2,7 @@
 
 Este repositório contém os testes automatizados E2E do projeto Poke+, cobrindo as telas Home e Login.
 Os testes validam navegação, layout, campos, interações e funcionalidades básicas da aplicação.
-```
+
 Tecnologias Utilizadas
 
 Cypress 13+
@@ -12,7 +12,7 @@ JavaScript
 Node.js
 
 HTML/CSS da aplicação Poke+
-```
+
 # Estrutura do Projeto
 ```
 /cypress
